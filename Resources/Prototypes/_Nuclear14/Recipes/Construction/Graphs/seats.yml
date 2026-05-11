@@ -300,7 +300,7 @@
               amount: 2
             - !type:SpawnPrototype
               prototype: MaterialCloth1
-              amount: 2 # Aurora's Song | Increased cloth cost from 1 to 2 to please the arbitrage
+              amount: 1
           steps:
             - tool: Screwing
               doAfter: 1
@@ -327,7 +327,7 @@
           completed:
             - !type:SpawnPrototype
               prototype: SheetPlastic1
-              amount: 3 # Aurora's Song | Increased materials cost from 2 to 3 to please Arbitrage
+              amount: 2
           steps:
             - tool: Welding
               doAfter: 1
