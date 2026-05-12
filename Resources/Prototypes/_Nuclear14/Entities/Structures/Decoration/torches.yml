@@ -1,4 +1,4 @@
-Aurora's Song | replaced names with locale strings
+#Aurora's Song | replaced names with locale strings
 - type: entity
   id: N14Torch
   name: structures-n14-torch
