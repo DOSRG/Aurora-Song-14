@@ -1,6 +1,7 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   id: N14NoticeBoard2
-  name: notice board
+  name: structures-n14-sign-notice-board
   description: Something important to post?
   placement:
     mode: SnapgridCenter

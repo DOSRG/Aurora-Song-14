@@ -1,3 +1,4 @@
+# Aurora's Song | replaced names with locale strings
 # For wallmount things that don't fit in any other file.
 
 # Safes
@@ -6,7 +7,7 @@
 - type: entity
   parent: BaseSign
   id: N14WallmountVent
-  name: vent
+  name: wallmount-n14-vent
   description: An airvent. Could be a good stash.
   components:
   - type: WallMount
@@ -23,6 +24,7 @@
 - type: entity
   parent: N14WallmountVent
   id: N14WallmountVentDamaged
+  name: wallmount-n14-vent-damaged
   suffix: damaged
   components:
   - type: Sprite
@@ -32,6 +34,7 @@
 - type: entity
   parent: N14WallmountVent
   id: N14WallmountVentOpen
+  name: wallmount-n14-vent-open
   suffix: open
   components:
   - type: Sprite

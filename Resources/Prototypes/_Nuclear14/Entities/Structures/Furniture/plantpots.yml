@@ -1,7 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: PottedPlantBase
   id: N14Plantpot
-  name: plant pot
+  name: furniture-n14-plant-potted
   abstract: true
   components:
   - type: Fixtures
@@ -14,6 +15,7 @@
 - type: entity
   parent: N14Plantpot
   id: N14Plantpot1
+  name: furniture-n14-plant-potted
   components:
   - type: Sprite
     state: pot-1
@@ -21,6 +23,7 @@
 - type: entity
   parent: N14Plantpot
   id: N14Plantpot2
+  name: furniture-n14-plant-potted
   components:
   - type: Sprite
     state: pot-2
@@ -28,6 +31,7 @@
 - type: entity
   parent: N14Plantpot
   id: N14Plantpot3
+  name: furniture-n14-plant-potted
   components:
   - type: Sprite
     state: pot-3
@@ -35,6 +39,7 @@
 - type: entity
   parent: N14Plantpot
   id: N14Plantpot4
+  name: furniture-n14-plant-potted
   components:
   - type: Sprite
     state: pot-4
@@ -42,6 +47,7 @@
 - type: entity
   parent: N14Plantpot
   id: N14Plantpot5
+  name: furniture-n14-plant-potted
   components:
   - type: Sprite
     state: pot-5
@@ -50,6 +56,7 @@
 - type: entity
   parent: N14Plantpot
   id: N14PlantpotDirty1
+  name: furniture-n14-plant-potted-dirty
   suffix: dirty
   components:
   - type: Sprite
@@ -58,6 +65,7 @@
 - type: entity
   parent: N14PlantpotDirty1
   id: N14PlantpotDirty2
+  name: furniture-n14-plant-potted-dirty
   components:
   - type: Sprite
     state: pot-2-dirty
@@ -65,6 +73,7 @@
 - type: entity
   parent: N14PlantpotDirty1
   id: N14PlantpotDirty3
+  name: furniture-n14-plant-potted-dirty
   components:
   - type: Sprite
     state: pot-3-dirty
@@ -72,6 +81,7 @@
 - type: entity
   parent: N14PlantpotDirty1
   id: N14PlantpotDirty4
+  name: furniture-n14-plant-potted-dirty
   components:
   - type: Sprite
     state: pot-4-dirty
@@ -80,6 +90,7 @@
 - type: entity
   parent: N14PlantpotDirty1
   id: N14PlantpotBroken1
+  name: furniture-n14-plant-potted-broken
   description: A broken plant pot.
   suffix: broken
   components:
@@ -89,6 +100,7 @@
 - type: entity
   parent: N14PlantpotBroken1
   id: N14PlantpotBroken2
+  name: furniture-n14-plant-potted-broken
   components:
   - type: Sprite
     state: pot-2-broken
@@ -96,6 +108,7 @@
 - type: entity
   parent: N14PlantpotBroken1
   id: N14PlantpotBroken3
+  name: furniture-n14-plant-potted-broken
   components:
   - type: Sprite
     state: pot-3-broken
@@ -103,6 +116,7 @@
 - type: entity
   parent: N14PlantpotBroken1
   id: N14PlantpotBroken4
+  name: furniture-n14-plant-potted-broken
   components:
   - type: Sprite
     state: pot-4-broken
@@ -110,6 +124,7 @@
 - type: entity
   parent: N14PlantpotBroken1
   id: N14PlantpotBroken5
+  name: furniture-n14-plant-potted-broken
   components:
   - type: Sprite
     state: pot-5-broken

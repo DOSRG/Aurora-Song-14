@@ -1,6 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: Dresser
   id: N14Dresser
+  name: furniture-n14-other-dresser
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/np13_misc.rsi
@@ -9,7 +11,7 @@
 - type: entity
   parent: BaseStructure
   id: N14GrandfatherClock
-  name: grandfather clock
+  name: furniture-n14-other-clock-grandfather
   description: An old pre-war clock. Looks grand.
   components:
   - type: Sprite
@@ -20,7 +22,7 @@
 - type: entity
   parent: BaseStructure
   id: N14Television
-  name: television
+  name: furniture-n14-other-tv
   description: An old pre-war television.
   components:
   - type: Sprite
@@ -30,6 +32,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionCabinetOpen
+  name: furniture-n14-other-tv
   components:
   - type: Sprite
     state: cabinet_tv
@@ -37,6 +40,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionRadking
+  name: furniture-n14-other-tv
   description: A Radking brand television.
   components:
   - type: Sprite
@@ -45,6 +49,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionRedwood
+  name: furniture-n14-other-tv
   description: A television in a redwood cabinet.
   components:
   - type: Sprite
@@ -53,6 +58,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionTube
+  name: furniture-n14-other-tv
   description: An old pre-war tube television.
   components:
   - type: Sprite
@@ -61,6 +67,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionSmall
+  name: furniture-n14-other-tv
   description: A television in a small case.
   components:
   - type: Sprite
@@ -79,6 +86,7 @@
 - type: entity
   parent: N14TelevisionSmall
   id: N14TelevisionTiny
+  name: furniture-n14-other-tv
   description: A tiny television.
   components:
   - type: Sprite
@@ -87,7 +95,7 @@
 - type: entity
   parent: SeatBase
   id: N14Toilet
-  name: toilet
+  name: furniture-n14-other-toilet
   description: Waste not, want not
   components:
   - type: Sprite
@@ -143,6 +151,7 @@
 - type: entity
   parent: N14Toilet
   id: N14ToiletWater
+  name: furniture-n14-other-toilet
   suffix: filled water
   components:
   - type: SolutionContainerManager
@@ -161,6 +170,7 @@
 - type: entity
   parent: N14Toilet
   id: N14ToiletDirty
+  name: furniture-n14-other-toilet
   suffix: filled dirty water
   components:
   - type: SolutionContainerManager
@@ -183,6 +193,7 @@
 - type: entity
   parent: N14Toilet
   id: N14ToiletIrradiated
+  name: furniture-n14-other-toilet
   suffix: filled rad water
   components:
   - type: SolutionContainerManager

@@ -1,7 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: BaseStructure
   id: N14FurnitureCasinoRoulettetable
-  name: Roulette Table
+  name: furniture-n14-desk-roulette
   description: An old casino roulette table. It still works.
   components:
   - type: Sprite
@@ -43,5 +44,5 @@
         layer:
         - MidImpassable
         - LowImpassable
-      
+
 # TODO: Make this functioning. The animation is there, just needs to move on click and spit out a number and colour as text.

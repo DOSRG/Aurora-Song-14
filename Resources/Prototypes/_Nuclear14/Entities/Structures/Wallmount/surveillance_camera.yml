@@ -1,7 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: SurveillanceCameraBase
   id: N14SurveillanceCameraBrotherhoodWashington
-  name: camera
+  name: camera-n14-surveillance
   suffix: BrotherhoodWashington
   components:
   - type: DeviceNetwork

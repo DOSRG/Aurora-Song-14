@@ -1,7 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   id: N14BarricadeWindow
   parent: BaseStructure
-  name: barricade
+  name: furniture-n14-barricade
   description: A makeshift barricade.
   components:
     - type: CanBuildWindowOnTop
@@ -34,11 +35,11 @@
           behaviors:
             - !type:DoActsBehavior
               acts: ["Destruction"]
-              
+
 - type: entity
   parent: N14BarricadeWindow
   id: N14BarricadeDoor
-  name: locked door
+  name: furniture-n14-barricade-door
   description: A locked door. Might have to break it down.
   components:
     - type: Sprite
@@ -51,7 +52,7 @@
 - type: entity
   id: N14WindowBars
   parent: BaseStructure
-  name: window bars
+  name: furniture-n14-barricade-window-bars
   description: Sturdy looking bars blocking access.
   components:
     - type: MeleeSound
@@ -86,9 +87,10 @@
         low:
           !type:CableDeviceNode
           nodeGroupID: Apc
-              
+
 - type: entity
   id: N14WindowBars2
+  name: furniture-n14-barricade-window-bars
   parent: N14WindowBars
   components:
     - type: Sprite

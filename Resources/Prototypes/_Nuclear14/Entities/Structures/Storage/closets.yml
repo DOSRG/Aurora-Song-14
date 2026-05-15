@@ -1,9 +1,11 @@
+# Aurora's Song | replaced names with locale strings
 # TODO:RESET:TIMEDSTORAGEFILL
 
 # Metal Closets
 - type: entity
   parent: ClosetBase
   id: N14ClosetBase
+  name: structures-n14-storage-closet
   abstract: true
   components:
   - type: Sprite
@@ -27,7 +29,7 @@
 - type: entity
   parent: N14ClosetBase
   id: N14ClosetBaseW
-  name: closet
+  name: structures-n14-storage-closet
   description: A basic closet for storing things.
   components:
   - type: Weldable
@@ -52,6 +54,7 @@
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetGrey1
+  name: structures-n14-storage-closet-grey
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/Closets/closetgrey.rsi
@@ -60,25 +63,30 @@
 - type: entity
   parent: [ N14ClosetGrey1 ]
   id: N14ClosetGrey1Refilling
+  name: structures-n14-storage-closet-grey
   suffix: Refilling,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetGrey1 ]
   id: N14LootClosetGrey1
+  name: structures-n14-storage-closet-grey
   suffix: Loot,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetGrey1 ]
   id: N14ClosetGrey1RefillingGeneric
+  name: structures-n14-storage-closet-grey
   suffix: Refilling,Generic,Random
 
 - type: entity
   parent: [ N14ClosetGrey1 ]
   id: N14LootGenericClosetGrey1
+  name: structures-n14-storage-closet-grey
   suffix: Loot,Generic,Random
 
 - type: entity
   id: N14ClosetGrey2
+  name: structures-n14-storage-closet-grey
   parent: N14ClosetBaseW
   components:
   - type: Sprite
@@ -87,27 +95,31 @@
 - type: entity
   parent: [ N14ClosetGrey2 ]
   id: N14ClosetGrey2Refilling
+  name: structures-n14-storage-closet-grey
   suffix: Refilling,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetGrey2 ]
   id: N14LootClosetGrey2
+  name: structures-n14-storage-closet-grey
   suffix: Loot,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetGrey2 ]
   id: N14ClosetGrey2RefillingGeneric
+  name: structures-n14-storage-closet-grey
   suffix: Refilling,Generic,Random
 
 - type: entity
   parent: [ N14ClosetGrey2 ]
   id: N14LootGenericClosetGrey2
+  name: structures-n14-storage-closet-grey
   suffix: Loot,Generic,Random
 
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetRusty
-  name: rusty closet
+  name: structures-n14-storage-closet-rusty
   description: A rusty old closet for storing things.
   components:
   - type: Sprite
@@ -116,27 +128,31 @@
 - type: entity
   parent: [ N14ClosetRusty ]
   id: N14ClosetRustyRefilling
+  name: structures-n14-storage-closet-rusty
   suffix: Refilling,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetRusty ]
   id: N14LootClosetRusty
+  name: structures-n14-storage-closet-rusty
   suffix: Loot,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetRusty ]
   id: N14ClosetRustyRefillingGeneric
+  name: structures-n14-storage-closet-rusty
   suffix: Refilling,Generic,Random
 
 - type: entity
   parent: [ N14ClosetRusty ]
   id: N14LootGenericClosetRusty
+  name: structures-n14-storage-closet-rusty
   suffix: Loot,Generic,Random
 
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetGunCabinet
-  name: gun cabinet
+  name: structures-n14-storage-closet-gun
   description: A secure cabinet for storing guns.
   components:
   - type: Sprite
@@ -145,17 +161,19 @@
 - type: entity
   parent: [ N14ClosetGunCabinet ]
   id: N14ClosetGunCabinetRefilling
+  name: structures-n14-storage-closet-gun
   suffix: Refilling,Military,Random
 
 - type: entity
   parent: [ N14ClosetGunCabinet ]
   id: N14LootClosetGunCabinet
+  name: structures-n14-storage-closet-gun
   suffix: Loot,Military,Random
 
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetFridgeDirty
-  name: fridge
+  name: structures-n14-storage-closet-fridge
   description: A dirty old fridge for keeping food fresh
   components:
   - type: Sprite
@@ -167,7 +185,7 @@
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetFridgeWideDirty
-  name: fridge
+  name: structures-n14-storage-closet-fridge
   description: A dirty old fridge for keeping food fresh
   components:
   - type: Sprite
@@ -179,12 +197,13 @@
 - type: entity
   parent: [ N14ClosetFridgeDirty, N14ClosetFridgeWideDirty ]
   id: N14LootClosetFridge
+  name: structures-n14-storage-closet-fridge
   suffix: Loot,Domestic,Random
 
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetDouble
-  name: double closet
+  name: structures-n14-storage-closet-double
   description: A double closet for holding twice the things.
   components:
   - type: Sprite
@@ -204,21 +223,25 @@
 - type: entity
   parent: [ N14ClosetDouble ]
   id: N14ClosetDoubleRefilling
+  name: structures-n14-storage-closet-double
   suffix: Refilling,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetDouble ]
   id: N14LootClosetDouble
+  name: structures-n14-storage-closet-double
   suffix: Loot,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetDouble ]
   id: N14ClosetDoubleRefillingGeneric
+  name: structures-n14-storage-closet-double
   suffix: Refilling,Generic,Random
 
 - type: entity
   parent: [ N14ClosetDouble ]
   id: N14LootGenericClosetDouble
+  name: structures-n14-storage-closet-double
   suffix: Loot,Generic,Random
 
 # Wooden Closets
@@ -226,7 +249,7 @@
 - type: entity
   parent: N14ClosetBase
   id: N14ClosetCabinetWood
-  name: cabinet
+  name: structures-n14-storage-closet-cabinet
   description: An old pre-war wooden cabinet.
   components:
   - type: Sprite
@@ -257,17 +280,19 @@
 - type: entity
   parent: [ N14ClosetCabinetWood ]
   id: N14ClosetCabinetWoodRefilling
+  name: structures-n14-storage-closet-cabinet
   suffix: Refilling,Domestic,Random
 
 - type: entity
   parent: [ N14ClosetCabinetWood ]
   id: N14LootClosetCabinetWood
+  name: structures-n14-storage-closet-cabinet
   suffix: Loot,Domestic,Random
 
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetEnclave
-  suffix: enclave roller
+  suffix: structures-n14-storage-closet-roller-enclave
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/Closets/closetenclave.rsi
@@ -275,7 +300,7 @@
 - type: entity
   parent: N14ClosetBaseW
   id: N14ClosetGeneric
-  suffix: generic roller
+  suffix: structures-n14-storage-closet-roller
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/Closets/closetgeneric.rsi
@@ -283,16 +308,19 @@
 - type: entity
   parent: [ N14ClosetGeneric ]
   id: N14LootClosetGeneric
+  name: structures-n14-storage-closet-roller
   suffix: Loot,Generic,Random
 
 - type: entity
   parent: [ N14ClosetGeneric ]
   id: N14LootMilitaryClosetGeneric
+  name: structures-n14-storage-closet-roller
   suffix: Loot,Military,Random
 
 - type: entity
   parent: [ N14ClosetGeneric ]
   id: N14ClosetGenericRefillingMilitary
+  name: structures-n14-storage-closet-roller
   suffix: Refilling,Military,Random
 
 # Wallmounted Closets
@@ -300,7 +328,7 @@
   id: N14ClosetWallMedicabinet
   placement:
     mode: SnapgridCenter
-  name: medicabinet
+  name: structures-n14-storage-closet-wall-medical
   description: A medicabinet mounted on the wall.
   components:
   - type: InteractionOutline
@@ -357,9 +385,11 @@
 - type: entity
   parent: [ N14ClosetWallMedicabinet ]
   id: N14ClosetWallMedicabinetRefilling
+  name: structures-n14-storage-closet-wall-medical
   suffix: Refilling,Medical,Random
 
 - type: entity
   parent: [ N14ClosetWallMedicabinet ]
   id: N14LootClosetWallMedicabinet
+  name: structures-n14-storage-closet-wall-medical
   suffix: Loot,Medical,Random

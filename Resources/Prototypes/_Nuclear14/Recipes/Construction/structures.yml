@@ -1,5 +1,6 @@
+# Aurora's Song | replaced names with locale strings
 - type: construction
-  name: log wall
+  name: structures-n14-wall-log
   id: N14WoodWallLog
   graph: N14WoodWall
   startNode: start
@@ -19,7 +20,7 @@
 
 # # Doors
 - type: construction
-  name: wooden door
+  name: structures-n14-door-wooden
   id: N14DoorWood
   graph: N14DoorGraph
   startNode: start

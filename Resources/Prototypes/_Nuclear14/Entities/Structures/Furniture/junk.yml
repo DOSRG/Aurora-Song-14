@@ -1,5 +1,7 @@
+# Aurora's Song | Replaced names with locale strings
 - type: entity
   id: N14JunkWoodBase
+  name: furniture-n14-junk
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -49,6 +51,7 @@
 - type: entity
   parent: N14JunkWoodBase
   id: N14JunkMetalBase
+  name: furniture-n14-junk-metal
   abstract: true
   components:
   - type: Damageable
@@ -85,7 +88,7 @@
 - type: entity
   parent: N14JunkWoodBase
   id: N14JunkDresser
-  name: broken dresser
+  name: furniture-n14-junk-wooden-dresser
   description: Once held underwear. Now it's junk.
   components:
   - type: Sprite
@@ -106,7 +109,7 @@
 - type: entity
   parent: N14JunkDresser
   id: N14JunkCabinet
-  name: broken cabinet
+  name: furniture-n14-junk-wooden-cabinet
   description: Once held clothes. Now it's junk.
   components:
   - type: Sprite
@@ -115,7 +118,7 @@
 - type: entity
   parent: N14JunkDresser
   id: N14JunkTable
-  name: broken table
+  name: furniture-n14-junk-wooden-table
   description: Ate without table, now I'm angry. Junk.
   components:
   - type: Sprite
@@ -125,7 +128,7 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkMachine
-  name: broken machine
+  name: furniture-n14-junk-metal-machine
   description: Rusty old machine. Now it's junk.
   components:
   - type: Sprite
@@ -157,7 +160,7 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkMicrowave
-  name: broken microwave
+  name: furniture-n14-junk-metal-microwave
   description: Dirty old microwave. Now it's junk.
   components:
   - type: Sprite
@@ -166,7 +169,7 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkJukebox
-  name: broken jukebox
+  name: furniture-n14-junk-metal-jukebox
   description: An old destroyed jukebox. Now it's junk.
   components:
   - type: Sprite
@@ -175,7 +178,7 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkBed1
-  name: broken bed
+  name: furniture-n14-junk-metal-bed
   description: An old bed with a holey mattress. Now it's junk.
   components:
   - type: Sprite
@@ -184,7 +187,7 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkBed2
-  name: broken bed
+  name: furniture-n14-junk-metal-bed
   description: A rusty bed frame. Now it's junk.
   components:
   - type: Sprite
@@ -193,7 +196,7 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkTV
-  name: broken TV
+  name: furniture-n14-junk-metal-tv
   description: An old television. Now it's junk.
   components:
   - type: Sprite
@@ -202,7 +205,7 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkArcade
-  name: broken arcade game
+  name: furniture-n14-junk-metal-arcade
   description: An old arcade machine. Now it's junk.
   components:
   - type: Sprite
@@ -211,7 +214,7 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkUrinal
-  name: broken urinal
+  name: furniture-n14-junk-metal-urinal
   description: A broken stinky urinal.
   components:
   - type: Sprite
@@ -220,7 +223,7 @@
 - type: entity
   parent: Mirror
   id: N14JunkMirror
-  name: broken mirror
+  name: furniture-n14-junk-metal-mirror
   description: Mirror mirror... I hope I don't get bad luck.
   components:
   - type: Sprite
@@ -231,7 +234,7 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkClock
-  name: broken clock
+  name: furniture-n14-junk-metal-clock
   description: Out of time!
   components:
   - type: Sprite

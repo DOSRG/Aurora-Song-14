@@ -1,8 +1,9 @@
+# Aurora's Song | replaced names with FTL strings
 #Small lights
 - type: entity
   parent: SmallLight
   id: N14LightSmallAlwayson
-  name: small light
+  name: lighting-n14-base-small
   suffix: Always on
   description: "An always powered light."
   components:
@@ -21,7 +22,7 @@
 - type: entity
   parent: PoweredSmallLightEmpty
   id: N14LightSmallEmpty
-  name: small light
+  name: lighting-n14-base-small
   description: "A light fixture. Draws power and produces light when equipped with a light bulb."
   suffix: Empty
   components:
@@ -37,6 +38,7 @@
 - type: entity
   parent: PoweredSmallLight
   id: N14LightSmall
+  name: lighting-n14-base-small
   suffix: ""
   components:
   - type: Sprite

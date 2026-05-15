@@ -1,6 +1,7 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   id: N14WellBoarded
-  name: Boarded well
+  name: well-n14-boarded
   description: It's a well that's been boarded up. Maybe a crowbar will reveal it's secrets.
   placement:
     mode: SnapgridCenter
@@ -38,8 +39,8 @@
 
 - type: entity
   parent: N14WellBoarded
-  id: N14WellWaterClean 
-  name: water well
+  id: N14WellWaterClean
+  name: well-n14-clean
   description: A well. Hopefully it's got some water at the bottom. Let's hope it's clean.
   suffix: Clean
   components:
@@ -79,6 +80,7 @@
 - type: entity
   parent: N14WellWaterClean
   id: N14WellWaterDirty
+  name: well-n14-dirty
   suffix: Dirty
   components:
   - type: SolutionContainerManager
@@ -99,6 +101,7 @@
 - type: entity
   parent: N14WellWaterClean
   id: N14WellWaterIrradiated # N14TODO: As above
+  name: well-n14-dirty
   suffix: Irradiated
   components:
   - type: SolutionContainerManager

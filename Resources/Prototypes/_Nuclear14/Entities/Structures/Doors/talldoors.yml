@@ -1,7 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: BaseStructure
   id: N14DoorMetalBlueTall
-  name: metal Door
+  name: structures-n14-door-metal-blue
   suffix: tall
   description: An old blue metal door.
   components:
@@ -98,7 +99,7 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalRedTall
-  name: metal Door
+  name: structures-n14-door-metal-red
   suffix: tall
   description: An old red metal door.
   components:
@@ -111,6 +112,7 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalBlueAltTall
+  name: strucutres-n14-door-metal-blue
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metalbluealt.rsi
@@ -121,7 +123,7 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalBlueWindowTall
-  name: metal Door
+  name: structures-n14-door-metal-windowed
   suffix: tall, windowed
   description: An old blue metal door with a window.
   components:
@@ -138,6 +140,7 @@
 - type: entity
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalGrateTall
+  name: structures-n14-door-metal-grated
   suffix: tall, grate
   description: A metal mesh door.
   components:
@@ -150,6 +153,7 @@
 - type: entity
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalBarTall
+  name: structures-n14-door-barred
   suffix: tall, bar
   description: A metal bar door.
   components:
@@ -162,6 +166,7 @@
 - type: entity
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceTall
+  name: structures-n14-door-gate-metal
   suffix: tall, fence
   description: A metal fence gate.
   components:
@@ -174,6 +179,7 @@
 - type: entity
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceBarbedTall
+  name: structures-n14-door-gate-barbed
   suffix: tall, fence barbed
   description: A metal barbed fence gate.
   components:
@@ -187,7 +193,7 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorWoodTall
-  name: wooden door
+  name: structures-n14-door-wooden
   suffix: tall
   description: A wooden door.
   components:
@@ -216,6 +222,7 @@
 - type: entity
   parent: N14DoorWoodTall
   id: N14DoorWoodBlueTall
+  name: structures-n14-door-wooden-blue
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/woodblue.rsi
@@ -226,6 +233,7 @@
 - type: entity
   parent: N14DoorWoodTall
   id: N14DoorWoodGreenTall
+  name: structures-n14-door-wooden-green
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/woodgreen.rsi
@@ -236,6 +244,7 @@
 - type: entity
   parent: N14DoorWoodTall
   id: N14DoorWoodRedTall
+  name: structures-n14-door-wooden-red
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/woodred.rsi
@@ -246,6 +255,7 @@
 - type: entity
   parent: N14DoorWoodTall
   id: N14DoorWoodWhiteTall
+  name: structures-n14-door-wooden-white
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/woodwhite.rsi
@@ -257,7 +267,7 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorCell
-  name: cell door
+  name: structures-n14-door-cell
   description: A door to be in cell.
   components:
   - type: Sprite
@@ -285,6 +295,7 @@
 - type: entity
   parent: N14DoorCell
   id: N14DoorCellRust
+  name: structures-n14-door-cell
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/cellrust.rsi
@@ -295,7 +306,7 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorAirlockTall
-  name: airlock
+  name: structures-n14-airlock
   suffix: tall
   description: An old bunker airlock.
   components:

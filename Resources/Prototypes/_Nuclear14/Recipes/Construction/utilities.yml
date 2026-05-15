@@ -1,5 +1,5 @@
 ﻿- type: construction
-  name: wall torch
+  name: structures-n14-torch-wall # Aurora's Song | replaced name with locale string
   id: WallTorch
   graph: WallTorch
   startNode: start
@@ -10,4 +10,3 @@
   objectType: Structure
   placementMode: SnapgridCenter
   hide: false
-  

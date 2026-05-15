@@ -1,6 +1,8 @@
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: BaseStructure
   id: N14BaseTallObstacle
+  name: furniture-n14-barricade
   suffix: tall
   abstract: true
   components:
@@ -33,29 +35,30 @@
         layer:
         - WallLayer
         density: 1000
-        
+
 - type: entity
   parent: N14BaseTallObstacle
   id: N14BarricadeWoodTall
-  name: wooden barricade
+  name: furniture-n14-barricade-wooden
   suffix: tall
   components:
   - type: Sprite
     state: barricade
-    
+
 - type: entity
   parent: N14BaseTallObstacle
   id: N14CellBars
-  name: cell bars
+  name: furniture-n14-barricade-cell
   components:
   - type: Sprite
     state: bars
     allowedVerbs:
     - Rattle
-    
+
 - type: entity
   parent: N14CellBars
   id: N14CellBarsSlot
+  name: furniture-n14-barricade-cell
   suffix: slot
   components:
   - type: Sprite
@@ -80,10 +83,11 @@
         layer:
         - WallLayer
         density: 1000
-    
+
 - type: entity
   parent: N14CellBars
   id: N14CellBarsCorner
+  name: furniture-n14-barricade-cell
   suffix: corner
   components:
   - type: Sprite
@@ -108,27 +112,29 @@
         layer:
         - WallLayer
         density: 1000
-        
-    
+
+
 - type: entity
   parent: N14CellBars
   id: N14CellBarsRust
-  name: cell bars
+  name: furniture-n14-barricade-cell
   components:
   - type: Sprite
     state: bars_rust
-    
+
 - type: entity
   parent: N14CellBarsSlot
   id: N14CellBarsSlotRust
+  name: furniture-n14-barricade-cell
   suffix: slot
   components:
   - type: Sprite
     state: barsslot_rust
-    
+
 - type: entity
   parent: N14CellBarsCorner
   id: N14CellBarsCornerRust
+  name: furniture-n14-barricade-cell
   suffix: corner
   components:
   - type: Sprite

@@ -1,6 +1,7 @@
+# Aurora's Song | replaced names with locale stringe
 - type: entity
   id: N14FloorWaterDirtyEntity
-  name: water
+  name: tiles-n14-water
   description: A real thirst quencher.
   placement:
     mode: SnapgridCenter
@@ -53,7 +54,7 @@
 - type: entity
   parent: N14FloorWaterDirtyEntity
   id: N14FloorWaterSewerDeep
-  name: deep sewer water
+  name: tiles-n14-water-sewer-deep
   description: Years of built up feces and urine and other fluids.
   components:
   - type: Sprite
@@ -67,7 +68,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerMedium
-  name: sewer water
+  name: tiles-n14-water-sewer
   description: Years of built up feces and urine and other fluids.
   components:
   - type: Sprite
@@ -80,7 +81,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerShallow
-  name: shallow sewer water
+  name: tiles-n14-water-sewer-shallow
   description: Years of built up feces and urine and other fluids.
   components:
   - type: Sprite
@@ -93,7 +94,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterDeep
-  name: deep water
+  name: tiles-n14-water-deep
   description: Endless Abyss.
   components:
   - type: Sprite
@@ -106,7 +107,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterMedium
-  name: water
+  name: tiles-n14-water
   description: Unclean water, likely highly unclean.
   components:
   - type: Sprite
@@ -119,7 +120,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterShallow
-  name: shallow water
+  name: tiles-n14-water-shallow
   description: Unclean water, likely highly unclean
   components:
   - type: Sprite
@@ -132,7 +133,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSaltDeep
-  name: deep salt water
+  name: tiles-n14-water-salt-deep
   description: Endless Abyss.
   components:
   - type: Sprite
@@ -152,7 +153,7 @@
 - type: entity
   parent: N14FloorWaterSaltDeep
   id: N14FloorWaterSaltMedium
-  name: salt water
+  name: tiles-n14-water-salt
   description: Unclean water, tainted with salt.
   components:
   - type: Sprite
@@ -165,7 +166,7 @@
 - type: entity
   parent: N14FloorWaterSaltDeep
   id: N14FloorWaterSaltShallow
-  name: shallow salt water
+  name: tiles-n14-water-salt-shallow
   description: Unclean water, tainted with salt
   components:
   - type: Sprite

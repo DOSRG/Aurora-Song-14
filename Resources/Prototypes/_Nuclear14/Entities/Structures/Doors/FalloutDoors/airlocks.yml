@@ -1,7 +1,8 @@
+# Aurora's Song | Changed names to Locale Strings
 - type: entity
   id: N14Airlock
   parent: Airlock
-  name: bunker door
+  name: structures-n14-airlock-bunker
   description: It opens, it closes, it might crush you, and there might be only radiation and monsters behind it. Has to be manually activated.
   abstract: true
   components:

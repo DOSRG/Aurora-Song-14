@@ -1,8 +1,8 @@
-# 
+# Aurora's Song | replaced names with locale strings
 - type: entity
   parent: BaseStructure
   id: N14TentLeatherWall
-  name: tent
+  name: structures-n14-tent-leather
   description: A tent made out of leather.
   components:
   - type: Sprite
@@ -42,19 +42,20 @@
   - type: RadiationBlocker
     resistance: 1
   - type: BlockWeather
-        
+
 - type: entity
   parent: N14TentLeatherWall
   id: N14TentLeatherCorner
+  name: structures-n14-tent-leather
   suffix: corner
   components:
   - type: Sprite
     state: leather_corner
-    
+
 - type: entity
   parent: N14TentLeatherWall
   id: N14TentClothWall
-  name: tent
+  name: structures-n14-tent-cloth
   description: A tent made out of cloth.
   components:
   - type: Sprite
@@ -68,10 +69,11 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-        
+
 - type: entity
   parent: N14TentClothWall
   id: N14TentClothCorner
+  name: structures-n14-tent-cloth
   suffix: corner
   components:
   - type: Sprite
